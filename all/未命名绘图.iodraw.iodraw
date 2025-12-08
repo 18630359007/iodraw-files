@@ -1,133 +1,22 @@
-<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="24.7.17">
-  <diagram name="第 1 页" id="jdzlKQeEEIVlbBDMlM2R">
-    <mxGraphModel dx="1444" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="939" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-1" value="搭建机器人应用场景" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="127" y="410" width="204" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-2" value="制作数据集" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="158" y="509" width="142" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-3" value="RGB-D相机彩色图YOLOv8切割目标区域" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="101" y="608" width="256" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-4" value="目标区域转mask图像" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="125" y="725" width="209" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-5" value="对mask图像感兴趣区域进行特征点提取" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="100" y="824" width="258" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-6" value="求连通域中心点" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="20" y="963" width="172" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-7" value="提取骨架线获得最低点" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="242" y="963" width="221" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RSmfgQGULwZ84NPr8aLT-8" target="RSmfgQGULwZ84NPr8aLT-9" edge="1">
+        <mxCell id="47uIJeEkgZ-TqsIq2IXP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="47uIJeEkgZ-TqsIq2IXP-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="650" y="470" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="481" y="1096" />
-              <mxPoint x="481" y="470" />
-              <mxPoint x="637" y="470" />
-            </Array>
+            <mxPoint x="200" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-8" value="RGB-D相机深度相机获得特征点深度信息" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="104" y="1062" width="250" height="67" as="geometry" />
+        <mxCell id="47uIJeEkgZ-TqsIq2IXP-4" value="object prompt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-9" value="根据深度信息获得特征点相机坐标系坐标" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="500" y="507" width="253" height="67" as="geometry" />
+        <mxCell id="47uIJeEkgZ-TqsIq2IXP-5" value="object RGB-D input&lt;div&gt;= I&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-10" value="手眼标定&#xa;眼在手上" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="560" y="623" width="132" height="132" as="geometry" />
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-11" value="转化矩阵" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="564" y="805" width="125" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-12" value="通过T转换获得机械臂基坐标系坐标" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="503" y="904" width="246" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-13" value="机器人逆运动学求解" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="523" y="1021" width="206" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-14" value="运动规划路径抓取" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="532" y="1120" width="189" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="RSmfgQGULwZ84NPr8aLT-1" target="RSmfgQGULwZ84NPr8aLT-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="RSmfgQGULwZ84NPr8aLT-2" target="RSmfgQGULwZ84NPr8aLT-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="RSmfgQGULwZ84NPr8aLT-3" target="RSmfgQGULwZ84NPr8aLT-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="RSmfgQGULwZ84NPr8aLT-4" target="RSmfgQGULwZ84NPr8aLT-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-19" value="分支1" style="curved=1;startArrow=none;endArrow=block;exitX=0.27;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" parent="1" source="RSmfgQGULwZ84NPr8aLT-5" target="RSmfgQGULwZ84NPr8aLT-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="106" y="927" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-20" value="分支2" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" parent="1" source="RSmfgQGULwZ84NPr8aLT-5" target="RSmfgQGULwZ84NPr8aLT-7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="353" y="927" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.22;entryY=0;rounded=0;" parent="1" source="RSmfgQGULwZ84NPr8aLT-6" target="RSmfgQGULwZ84NPr8aLT-8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="106" y="1037" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.78;entryY=0;rounded=0;" parent="1" source="RSmfgQGULwZ84NPr8aLT-7" target="RSmfgQGULwZ84NPr8aLT-8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="353" y="1037" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" parent="1" source="RSmfgQGULwZ84NPr8aLT-9" target="RSmfgQGULwZ84NPr8aLT-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="RSmfgQGULwZ84NPr8aLT-10" target="RSmfgQGULwZ84NPr8aLT-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="RSmfgQGULwZ84NPr8aLT-11" target="RSmfgQGULwZ84NPr8aLT-12" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="RSmfgQGULwZ84NPr8aLT-12" target="RSmfgQGULwZ84NPr8aLT-13" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RSmfgQGULwZ84NPr8aLT-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="RSmfgQGULwZ84NPr8aLT-13" target="RSmfgQGULwZ84NPr8aLT-14" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="47uIJeEkgZ-TqsIq2IXP-7" value="LLM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="90" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
