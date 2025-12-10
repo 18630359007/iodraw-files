@@ -105,11 +105,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uj1UsKClk6uylWmaS6BZ-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="N_LOYNFeNJu47AA6OlWu-50">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="790" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="N_LOYNFeNJu47AA6OlWu-50" value="可执行的欠驱灵巧手抓取位姿" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="320" y="700" width="200" height="50" as="geometry" />
         </mxCell>
