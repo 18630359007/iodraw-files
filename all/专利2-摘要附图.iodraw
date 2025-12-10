@@ -105,6 +105,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="1Es_J0cz7TsR1_c-kYrl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="N_LOYNFeNJu47AA6OlWu-50" target="1Es_J0cz7TsR1_c-kYrl-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="N_LOYNFeNJu47AA6OlWu-50" value="可执行的欠驱灵巧手抓取位姿" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="320" y="700" width="200" height="50" as="geometry" />
         </mxCell>
@@ -149,7 +152,7 @@
         <mxCell id="zldaxk-SiiVqlNWHxAxS-13" value="EL(I)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="375" y="448" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1Es_J0cz7TsR1_c-kYrl-0" value="可执行的欠驱灵巧手抓取位姿" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="1Es_J0cz7TsR1_c-kYrl-0" value="实验验证" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="790" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
