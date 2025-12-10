@@ -153,7 +153,7 @@
           <mxGeometry x="375" y="448" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Es_J0cz7TsR1_c-kYrl-0" value="实验验证" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="320" y="790" width="200" height="50" as="geometry" />
+          <mxGeometry x="335" y="790" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
