@@ -43,7 +43,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="N_LOYNFeNJu47AA6OlWu-38" value="抓取姿态生成网络" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="362" y="460" width="120" height="50" as="geometry" />
+          <mxGeometry x="362" y="360" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="N_LOYNFeNJu47AA6OlWu-42" value="输入：RGB-D图像" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="352" y="170" width="140" height="60" as="geometry" />
@@ -67,7 +67,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="N_LOYNFeNJu47AA6OlWu-50" value="可执行的欠驱灵巧手抓取位姿" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="560" width="200" height="50" as="geometry" />
+          <mxGeometry x="320" y="360" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zldaxk-SiiVqlNWHxAxS-0" value="目标物体（I）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="352" y="70" width="140" height="60" as="geometry" />
