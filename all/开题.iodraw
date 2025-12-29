@@ -48,9 +48,6 @@
         <mxCell id="N_LOYNFeNJu47AA6OlWu-38" value="抓取姿态生成网络" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="362" y="600" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zldaxk-SiiVqlNWHxAxS-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="N_LOYNFeNJu47AA6OlWu-42" target="zldaxk-SiiVqlNWHxAxS-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="N_LOYNFeNJu47AA6OlWu-42" value="输入：RGB-D图像" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="352" y="170" width="140" height="60" as="geometry" />
         </mxCell>
@@ -84,13 +81,8 @@
         <mxCell id="zldaxk-SiiVqlNWHxAxS-0" value="目标物体（I）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="352" y="70" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zldaxk-SiiVqlNWHxAxS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zldaxk-SiiVqlNWHxAxS-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="zldaxk-SiiVqlNWHxAxS-6" value="PointNet" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="260" y="250" width="120" height="40" as="geometry" />
+          <mxGeometry x="430" y="290" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zldaxk-SiiVqlNWHxAxS-13" value="EL(I)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="375" y="448" width="50" height="30" as="geometry" />
