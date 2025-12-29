@@ -6,17 +6,17 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="N_LOYNFeNJu47AA6OlWu-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="N_LOYNFeNJu47AA6OlWu-21" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="421.5" y="290" as="sourcePoint" />
+            <mxPoint x="421.5" y="250" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="N_LOYNFeNJu47AA6OlWu-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="N_LOYNFeNJu47AA6OlWu-21" target="N_LOYNFeNJu47AA6OlWu-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N_LOYNFeNJu47AA6OlWu-21" value="抓取策略分类网络" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="362" y="360" width="120" height="50" as="geometry" />
+          <mxGeometry x="362" y="320" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="N_LOYNFeNJu47AA6OlWu-37" value="" style="group;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
-          <mxGeometry x="482" y="320" width="134" height="130" as="geometry" />
+          <mxGeometry x="482" y="280" width="134" height="130" as="geometry" />
         </mxCell>
         <mxCell id="N_LOYNFeNJu47AA6OlWu-30" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;labelBackgroundColor=none;" parent="N_LOYNFeNJu47AA6OlWu-37" vertex="1">
           <mxGeometry y="15" width="50" height="100" as="geometry" />
@@ -39,17 +39,17 @@
         </mxCell>
         <mxCell id="N_LOYNFeNJu47AA6OlWu-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="N_LOYNFeNJu47AA6OlWu-38" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="422" y="560" as="targetPoint" />
+            <mxPoint x="422" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="N_LOYNFeNJu47AA6OlWu-38" value="抓取姿态生成网络" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="362" y="360" width="120" height="50" as="geometry" />
+          <mxGeometry x="362" y="420" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="N_LOYNFeNJu47AA6OlWu-42" value="输入：RGB-D图像" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="352" y="170" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N_LOYNFeNJu47AA6OlWu-44" value="额外损失约束" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="150" y="445" width="180" height="78" as="geometry">
+          <mxGeometry x="150" y="405" width="180" height="78" as="geometry">
             <mxRectangle x="70" y="473" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -62,12 +62,12 @@
         <mxCell id="N_LOYNFeNJu47AA6OlWu-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="N_LOYNFeNJu47AA6OlWu-46" target="N_LOYNFeNJu47AA6OlWu-38" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="330" y="485" />
+              <mxPoint x="330" y="445" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="N_LOYNFeNJu47AA6OlWu-50" value="可执行的欠驱灵巧手抓取位姿" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="360" width="200" height="50" as="geometry" />
+          <mxGeometry x="320" y="520" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zldaxk-SiiVqlNWHxAxS-0" value="目标物体（I）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="352" y="70" width="140" height="60" as="geometry" />
