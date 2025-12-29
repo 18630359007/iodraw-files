@@ -48,18 +48,18 @@
         <mxCell id="N_LOYNFeNJu47AA6OlWu-36" value="二指捏合&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="250" y="280" width="84" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P4SQHm7B198uqpVj2QfN-5" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="295" width="50" height="100" as="geometry" />
+        <mxCell id="P4SQHm7B198uqpVj2QfN-5" value="" style="group;rotation=-180;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="295" width="50" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="N_LOYNFeNJu47AA6OlWu-30" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;labelBackgroundColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="P4SQHm7B198uqpVj2QfN-5" vertex="1">
+        <mxCell id="N_LOYNFeNJu47AA6OlWu-30" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;labelBackgroundColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;rotation=-180;" parent="P4SQHm7B198uqpVj2QfN-5" vertex="1">
           <mxGeometry width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="N_LOYNFeNJu47AA6OlWu-33" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="P4SQHm7B198uqpVj2QfN-5" edge="1" target="N_LOYNFeNJu47AA6OlWu-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20" y="49.92000000000007" as="sourcePoint" />
-            <mxPoint x="40" y="50.00000000000006" as="targetPoint" />
+            <mxPoint x="30" y="50" as="sourcePoint" />
+            <mxPoint x="10" y="50" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="30" y="50" />
+              <mxPoint x="20" y="50" />
             </Array>
           </mxGeometry>
         </mxCell>
